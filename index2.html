@@ -10,38 +10,62 @@
       h1 {
         color: green;
         text-align: center;
+        font-size: 50px;
+      }
+
+      h3 {
+        color: purple;
+        text-align: left;
+        font-size: 30px
       }
 
       p {
         color: red;
         font-style: italic;
-        font-size: 20px
+        font-size: 30px
       }
+      </style>
 
+  <style>
       ul {
         list-style-type: none;
         margin: 0
         padding: 0;
+        width: 200px;
+        background-color: #f1f1f1;
       }
 
-      li {
+      li a{
         display: block;
-        width: 60px;
-        background-color: #dddddd;
+        width: 50px;
+        padding:8px 16px;
+        text-decoration: none;
       }
-      
-      </style>
+
+      li a.active {
+        background-color: #4CAF50
+        color: white;
+      }
+
+      /* Change the link color. Hover over */
+      li a:hover:not(.active) }
+        background-color: #555;
+        color: white;
+      }
+
+  </style>
     <body>
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#photos">Photos</a></li>
         <li><a href="#classes">Classes</a></li>
       </ul>
-      <h1>This is a cool app.</h1>
-      <p>This is a test again.</p>
+      <h1>"This is a cool app".</h1>
+      <p>I am going to create an app.</p>
       <div style="background-color:lightblue">
         <h3>Should I make an iOS app?</h3>
         <p>I think I should make an iOS app.</p>
+        <p>iOS apps are cooler.</p>
 
       </div>
       <div>
@@ -56,7 +80,6 @@
           </tr>
         </table>
       </div>
-
 
     </body>
     </head>
