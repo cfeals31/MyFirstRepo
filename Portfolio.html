@@ -1,8 +1,116 @@
 <html>
-  <title>This is my test file.</title>
+  <title>Website Pull Request Test</title>
   <p>In this file, I will be testing a pull request.</p>
   <p>Ryan is my partner, and he will review it.</p>
   <body>
     <h1>Hello Ryan, how are you doing?</h1>
+
+      <style>
+      body {
+        color: blue;
+      }
+
+      h1 {
+        color: green;
+        text-align: center;
+        font-size: 50px;
+      }
+
+      h3 {
+        color: purple;
+        text-align: left;
+        font-size: 30px
+      }
+
+      p {
+        color: red;
+        font-style: italic;
+        font-size: 30px
+      }
+      </style>
+    </body>
+  <style>
+      ul {
+        list-style-type: none;
+        margin: 0
+        padding: 0;
+        width: 200px;
+        background-color: #f1f1f1;
+      }
+
+      li a{
+        display: block;
+        width: 50px;
+        padding:8px 16px;
+        text-decoration: none;
+      }
+
+      li a.active {
+        background-color: #4CAF50
+        color: white;
+      }
+
+      /* Change the link color. Hover over */
+      li a:hover:not(.active) }
+        background-color: #555;
+        color: white;
+      }
+
+  </style>
+  <style>
+    .dropbtn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {background-color: #ADD8E6}
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+      background-color: #3e8e41;
+    }
+
+  </style>
+
+  <body>
+    <h1>Here are my favorite hobbies.</h1>
+    <h2>My Favorite Hobbies</h2>
+    <div class="dropdown">
+      <button class="dropbtn">Dropdown</button>
+      <div class="dropdown-content">
+        <a href="#">Skiing</a>
+        <a href="#">Snowboarding</a>
+        <a href="#">Hiking</a>
+      </div>
+
+    </div>
   </body>
-</html>
+  </html>
