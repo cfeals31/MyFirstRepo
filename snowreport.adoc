@@ -10,3 +10,6 @@ It is available for both iOS and Android.
 - Version 1.0 was developed on Cordova Platform. 
 - Version 1.1 was developed on iOS native Framework.
 - Version 1.2 was developed on Android Framework. 
+
+## What programming language was utilized? 
+- JQuery, CSS, HTML
