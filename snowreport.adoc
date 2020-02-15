@@ -1,0 +1,3 @@
+# Snow Report Application
+
+## What is this application about?
