@@ -7,7 +7,7 @@
 :SNOWREPORT_STATUS: Available
 :SNOWREPORT_VERSION: 1.0.1
 
-:imagedir: 
+:imagedir: unknown.png
 
 
 ## What is this application about?
