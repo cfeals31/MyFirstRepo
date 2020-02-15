@@ -24,6 +24,7 @@ It is available for both iOS and Android.
 ## What programming language was utilized? 
 - JQuery, CSS, HTML
 
+## Application Environment Details
 
 [grid="rows",format="csv"]
 [options="header",cols="^,<,<s,<,>m"]
