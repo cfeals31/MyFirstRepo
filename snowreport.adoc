@@ -1,3 +1,12 @@
 # Snow Report Application
 
 ## What is this application about?
+It is an application to track and measure snow conditions around the United States
+
+## What mobile operating systems does the application reside on?
+It is available for both iOS and Android.
+
+## What platform was the application developed on? 
+- Version 1.0 was developed on Cordova Platform. 
+- Version 1.1 was developed on iOS native Framework.
+- Version 1.2 was developed on Android Framework. 
