@@ -1,0 +1,36 @@
+# Snow Report Application
+
+:SNOWREPORT: Snow Report App
+:SNOWREPORT_LOC: Bend
+:SNOWREPORT_ENV: Staging
+:SNOWREPORT_URL: https://snowreport.com
+:SNOWREPORT_STATUS: Available
+:SNOWREPORT_VERSION: 1.0.1
+:imagedir: images
+
+image::Unknown.png[alt=logo,width=250px][orientation=portrait]
+
+## What is this application about?
+It is an application to track and measure snow conditions around the United States
+
+## What mobile operating systems does the application reside on?
+It is available for both iOS and Android.
+
+## What platform was the application developed on? 
+- Version 1.0 was developed on Cordova Platform. 
+- Version 1.1 was developed on iOS native Framework.
+- Version 1.2 was developed on Android Framework. 
+
+## What programming language was utilized? 
+- JQuery, CSS, HTML
+
+## Application Environment Details
+
+[grid="rows",format="csv"]
+[options="header",cols="^,<,<s,<,>m"]
+|==============================
+App,Location,Environment,URL,Status,Version
+'{SNOWREPORT_APP}','{SNOWREPORT_LOC}','{SNOWREPORT_ENV}','{SNOWREPORT_URL}','{SNOWREPORT_STATUS}','{SNOWREPORT_VERSION}'
+|===================================
+
+

@@ -47,34 +47,11 @@
 </head>
 <body>
   <h1>My Favorite Hobbies</h1>
-  <div class="dropdown">
-    <button class="dropbtn">Dropdown</button>
-    <div class="dropdown-content">
-      <a href="#">Skiing</a>
-      <a href="#">Snowboarding</a>
-      <a href="#">Hiking</a>
-    </div>
-
-
     <div>
       Search on News Articles:</br>
       <input type="text" name="news"></br>
       <button type="button">Search/Query</button>
     </div>
-  <script>
-  fetch('https://api.nytimes.com/svc/search/v2/articlesearch.json?q=snowboarding&api-key=M55MxHkMSTR8YmBHMYPEIwpyJZpylOxp')
-    .then(response => {
-      return response.json()
-    })
-    .then(data => {
-      console.log(data.response.docs[2].headline.main)
-      console.log(data.response.docs[2].snippet)
-    })
-    .catch(err => {
-
-    })
-  </script>
-  
   <script>
   var apikey='M55MxHkMSTR8YmBHMYPEIwpyJZpylOxp'
   var urlbase='https://api.nytimes.com/svc/search/v2/articlesearch.json?'
